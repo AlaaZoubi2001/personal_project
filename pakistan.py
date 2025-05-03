@@ -20,8 +20,7 @@ st.markdown("""
     unsafe_allow_html=True
 )
 
-df =pd.read_csv('C:/Users/כללי/Downloads/personal_project/Pakistan_data cleaniing.csv', encoding='latin-1')
-
+df =pd.read_csv('Pakistan_data cleaniing.csv', encoding='latin-1')
 
 st.markdown("""
     <style>
