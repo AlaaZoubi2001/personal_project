@@ -36,7 +36,7 @@ st.markdown("""
     .centered-button button {
         font-size: 24px !important;
         padding: 15px 40px !important;
-        background-color: #FF5733;
+        background-color: white;
         color: white;
         border: none;
         border-radius: 12px;
@@ -367,7 +367,7 @@ sns.histplot(
     data=df,
     x='created_at',
     bins=20,
-    color='#B49F9E',
+    color='#35D19056',
     kde=True,
     ax=ax
 )
