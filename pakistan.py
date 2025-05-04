@@ -22,7 +22,12 @@ st.markdown("""
 def load_data():    
     return pd.read_csv('Pakistan Largest Ecommerce Dataset.csv', encoding='latin-1')
 
+<<<<<<< HEAD
 df =pd.read_csv('Pakistan Largest Ecommerce Dataset.csv', encoding='latin-1')
+=======
+df =pd.read_csv('Pakistan_data cleaniing.csv', encoding='latin-1')
+
+>>>>>>> 95e95eb1bf7a7f36c5ad101cdce443aeadf641bd
 st.markdown("""
     <style>
     .centered-button {
